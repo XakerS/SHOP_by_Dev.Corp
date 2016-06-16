@@ -2,11 +2,18 @@ print("There is good!")
 #print(abs(-99))
 shop = str(input("Please enter you dream item: "))
 print(shop)
-shopp = str(input("You dream price:"))
+shopp = int(input("You dream price:"))
 print(shopp)
-money = str(input("You have money now?: "))
+money = int(input("You have money now?: "))
 print(money)
-#alprice = [] indev
-#alprice.append(shopp) indev
+moneygoat = int(input("You more money?: "))
+print(moneygoat)
+alprice = []
+alprice.append(shopp)
+money = money + moneygoat
 togoal = shopp - money
-print("To goal: ",int(togoal))
+print(abs(moneygoat),"goat money on day")
+if money == shop:
+ print("WHOO!!YOU ARE BUY NOW ITEM!!")
+else:
+ print("To goal: ",int(togoal))
